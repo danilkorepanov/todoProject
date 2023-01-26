@@ -1,14 +1,10 @@
-import './App.css';
-import Main from './components/screens/Main/Main';
-import Layot from './components/Layot/Layot'
+import "./App.css";
+import Main from "./components/screens/Main/Main";
 
 function App() {
   return (
-    <div className="App">
-      <Layot>
-        <Main/>
-      </Layot>
-      
+    <div>
+      <Main />
     </div>
   );
 }
